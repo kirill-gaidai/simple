@@ -1,1 +1,1 @@
-# simple
+# simple java project template
