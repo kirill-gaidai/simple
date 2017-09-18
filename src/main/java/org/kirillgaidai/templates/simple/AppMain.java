@@ -8,7 +8,8 @@ public class AppMain {
     final private static Logger LOGGER = LogManager.getLogger(AppMain.class);
 
     public static void main(String[] args) {
-        LOGGER.info("Hello, World!");
+        AppClass appClass = new AppClass();
+        LOGGER.info(appClass.getMessage());
     }
 
 }
